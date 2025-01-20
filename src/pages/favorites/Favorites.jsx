@@ -8,10 +8,8 @@ const FavoritesPage = () => {
   const favorites = useSelector((state) => state.favorites.favorites);
 
   useEffect(() => {
-    // Fetch the favorite products from localStorage
     const storedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
-    // Dispatch to Redux to populate the store with favorites
     dispatch(setFavorites(storedFavorites));
   }, [dispatch]);
 
