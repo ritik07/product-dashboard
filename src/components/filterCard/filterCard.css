@@ -1,0 +1,22 @@
+.filter-container,
+.sort-container {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#category-filter,
+#sort-filter {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#category-filter:focus,
+#sort-filter:focus {
+  outline: none;
+  border-color: #007bff;
+}
