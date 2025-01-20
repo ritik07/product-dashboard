@@ -15,7 +15,7 @@ const LayoutContainer = () => {
         <nav className="header-nav">
           <ul className="nav-list">
             <Link to="/favorites">
-              <li className="nav-item cursor-pointer">Favorites {favorites.length ? (favorites.length):null} </li>
+              <li className="nav-item cursor-pointer">Favorites {favorites.length ? (favorites.length) : null} </li>
             </Link>
           </ul>
         </nav>
